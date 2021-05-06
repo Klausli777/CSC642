@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="org.meicode.csc642.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/MyselfFragment"
+        android:name="org.meicode.csc642.MyselfFragment"
+        android:label="Myself"
+        tools:layout="@layout/myself_fragment" />
+    <fragment
+        android:id="@+id/SearchFragment"
+        android:name="org.meicode.csc642.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/search_fragment" />
+    <fragment
+        android:id="@+id/SecondHandFragment"
+        android:name="org.meicode.csc642.SecondHandFragment"
+        android:label="SecondHand"
+        tools:layout="@layout/second_hand_fragment" />
+    <fragment
+        android:id="@+id/BlogFragment"
+        android:name="org.meicode.csc642.BlogFragment"
+        android:label="Blog"
+        tools:layout="@layout/blog_fragment" />
+</navigation>

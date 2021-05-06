@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CSC642</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="NewsImage">News Image</string>
+    <string name="NewsTitle">News Title</string>
+</resources>
