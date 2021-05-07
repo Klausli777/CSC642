@@ -29,5 +29,18 @@
         android:id="@+id/BlogFragment"
         android:name="org.meicode.csc642.BlogFragment"
         android:label="Blog"
-        tools:layout="@layout/blog_fragment" />
+        tools:layout="@layout/blog_fragment" >
+        <action
+            android:id="@+id/action_BlogFragment_to_postFragment"
+            app:destination="@id/postFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="org.meicode.csc642.PostFragment"
+        android:label="fragment_mainpost"
+        tools:layout="@layout/fragment_mainpost" >
+        <action
+            android:id="@+id/action_postFragment_to_BlogFragment"
+            app:destination="@id/BlogFragment" />
+    </fragment>
 </navigation>
